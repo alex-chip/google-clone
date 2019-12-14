@@ -20,6 +20,7 @@ a {
   cursor: pointer;
 }
 
+/* Seccion Header */
 .Header {
   width: 100%;
 }
@@ -64,3 +65,83 @@ a {
   border-radius: 50%;
   display: block;
 }
+
+/* Seccion del Main */
+.Main {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.Main-img {
+  margin-bottom: 2em;
+}
+
+.Main-input__container {
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 2em;
+  border: 1px solid #dfe1e5;
+  height: 40px;
+  width: 500px;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 0 1em;
+  position: relative;
+}
+
+.Main-input__container input {
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border:0;
+  margin-left: 2em;
+  color: #444;
+  font-size: 15px;
+}
+
+.Main-input__container:hover {
+  box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+  border: 1px solid #dfe1e500;
+}
+
+.Main-input__micro-icon,
+.Main-input__search-icon {
+  width: 5%;
+  height: 45%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.Main-input__search-icon {
+  left: 2%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+}
+
+.Main-input__micro-icon {
+  right: 2%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+}
+
+.Button {
+  background: #F4F4F4;
+  border: 1px solid #F4F4F4;
+  border-radius: .3em;
+  padding: .8em;
+  color: #666;
+  font-size: 15px;
+  margin-right: 1em;
+  cursor: pointer;
+  outline: 0;
+}
+
+.Button:hover {
+  border: 1px solid #dfe1e5;
+  color: #111;
+  background-color: #F9F9F9;
+}
+
