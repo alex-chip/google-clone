@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Header {
+  width: 100%;
+}
+
+.Nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Nav-menuList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Nav-menu__item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav-menu__link {
+  color: #444;
+}
+
+.menu-icon {
+  background-image: url(https://static.thenounproject.com/png/756729-200.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 120px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.Nav-menu__img {
+  border-radius: 50%;
+  display: block;
+}
